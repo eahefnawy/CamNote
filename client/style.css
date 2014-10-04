@@ -1,0 +1,129 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+}
+header {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    border-bottom: solid 1px white;
+    position: fixed;
+}
+main {
+    margin-bottom: 145px;
+    position: relative;
+    top: 100px;
+}
+footer {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: black;
+    position: fixed;
+    opacity: 0.6;
+    bottom: 0;
+    left: 50%;
+    margin: 0 0 20px -50px;
+}
+footer span {
+    color: white;
+    font-size: 50px !important;
+    text-align: center;
+    margin-top: 24px;
+}
+h1 {
+    margin-top: 8px;
+    font-weight: 300;
+    font-size: 30px;
+    color: white;
+    display: inline;
+    position: relative;
+    top: 8px;
+}
+h4 {
+    font-weight: 100;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px 0;
+}
+h4 span {
+    margin-right: 10px;
+}
+p {
+    font-size: 20px;
+    font-weight: 100;
+}
+.list {
+  display: block;
+    float: left;
+    position: relative;
+    top: 0;
+}
+.settings {
+  display: block;
+    float: right;
+    position: relative;
+    top: 0;
+}
+.camNote {
+    width: 100%;
+}
+.camNote:first-child .line {
+    display: none;
+}
+.camNote img {
+    width: 100%;
+    display: block;
+}
+.line {
+    width: 70%;
+    height: 2px;
+    background-color: black;
+    margin: auto;
+}
+.effect-airbnb.animate .outer-nav a {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.outer-nav {
+  left: 10% !important;
+  font-size: 30px;
+}
+
+.effect-airbnb {
+  background-color: black;
+}
+
+.settingsCourseName{
+position: inherit;
+margin-left: 20px;
+margin-bottom: 20px;
+font-size: 30px;
+display: inline;
+float: left;
+}
+
+.followButton{
+
+display: inline;
+width: 150px;
+height: 46px;
+float: right;
+margin-right: 30px;
+border-radius: 5px;
+background-color: green;
+font-size: 30px;
+color: white;
+font-weight: 700;
+padding-top: 2px;
+}
+
+.settingsCourseNameContainer {
+    width: 100%;
+    height: 70px;
+}

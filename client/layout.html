@@ -1,0 +1,47 @@
+<template name="layout">
+
+
+    <div id="perspective" class="perspective effect-airbnb">
+        <div class="container">
+            <div class="wrapper">
+                <!-- wrapper needed for scroll -->
+                <header>
+                    <img id="showMenu" height="60" src="list.png" class="list">
+                    
+                    <h1>
+                    <!--
+                        <span id="showMenu" class="fa fa-ellipsis-h  list"></span>
+                        -->
+                        
+                        {{title}}
+
+                        <!--
+                        <span class="fa fa-cogs settings"></span>
+                        -->
+                    </h1>
+                    
+                    <img height="60" src="settings.png" class="settings">
+                </header>
+                <main>
+                {{>yield}}
+                </main>
+                <footer>
+                    <span class="fa fa-camera"></span>
+                </footer>
+            <!-- wrapper -->
+            </div>
+        </div>
+        <!-- /container -->
+        <nav class="outer-nav left vertical">
+        {{#each courseList}}
+        	{{> courseListItem}}
+				{{/each}}
+            <!-- ... -->
+        </nav>
+    </div>
+    <!-- /perspective -->
+
+    
+
+
+</template>
